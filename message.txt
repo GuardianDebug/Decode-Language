@@ -4,156 +4,166 @@ print("██╔████╔██║███████║█████�
 print("██║╚██╔╝██║██╔══██║██╔══██╗██║░░██╗██║░░██║██║░░██║██╔══╝░░")
 print("██║░╚═╝░██║██║░░██║██║░░██║╚█████╔╝╚█████╔╝██████╔╝███████╗")
 print("╚═╝░░░░░╚═╝╚═╝░░╚═╝╚═╝░░╚═╝░╚════╝░░╚════╝░╚═════╝░╚══════╝")
-print("Made by @dulocracyalt on discord.")
+print("Made by @dulocracyalt on Discord.")
 print("For further information, please contact me.")
-response = input("Decode or Encode:     ")
-if response == "encode" or "Encode":
-    code = input("What do you want to change into MARCODE? ")
-    for letter in code:
-        if letter == "a":
-            print("#")
-        if letter == "b":
-            print("*")
-        if letter == "c":
-            print("&")
-        if letter == "d":
-            print("/")
-        if letter == "e":
-            print("|")
-        if letter == "f":
-            print("^")
-        if letter == "g":
-            print("'")
-        if letter == "h":
-            print("~")
-        if letter == "i":
-            print("=")
-        if letter == "j":
-            print("$")
-        if letter == "k":
-            print("`")
-        if letter == "l":
-            print("?")
-        if letter == "m":
-            print("(")
-        if letter == "n":
-            print(")")
-        if letter == "o":
-            print(">")
-        if letter == "p":
-            print("<")
-        if letter == "q":
-            print(".")
-        if letter == "r":
-            print(":")
-        if letter == "s":
-            print("d")
-        if letter == "t":
-            print("e")
-        if letter == "u":
-            print("f")
-        if letter == "v":
-            print("g")
-        if letter == "w":
-            print("h")
-        if letter == "x":
-            print("c")
-        if letter == "y":
-            print("b")
-        if letter == "z":
-            print("a")   
-        if letter == "1":
-            print("i")
-        if letter == "2":
-            print("j")
-        if letter == "3":
-            print("k")
-        if letter == "4":
-            print("l")
-        if letter == "5":
-            print("m")
-        if letter == "6":
-            print("n")
-        if letter == "7":
-            print("o")   
-        if letter == "8":
-            print("p")
-        if letter == "9":
-            print("q")   
-        if letter == "0":
-            print("r")
-if response == "decode" or "Decode":
-  decode = input("What do you want to decode? ")
-  for letter in decode:
-        if letter == "#":
-            print("a")
-        if letter == "*":
-            print("b")
-        if letter == "&":
-            print("c")
-        if letter == "/":
-            print("d")
-        if letter == "|":
-            print("e")
-        if letter == "^":
-            print("f")
-        if letter == "'":
-            print("g")
-        if letter == "~":
-            print("h")
-        if letter == "=":
-            print("i")
-        if letter == "$":
-            print("j")
-        if letter == "`":
-            print("k")
-        if letter == "?":
-            print("l")
-        if letter == "(":
-            print("m")
-        if letter == ")":
-            print("n")
-        if letter == ">":
-            print("o")
-        if letter == "<":
-            print("p")
-        if letter == ".":
-            print("q")
-        if letter == ":":
-            print("r")
-        if letter == "d":
-            print("s")
-        if letter == "e":
-            print("t")
-        if letter == "f":
-            print("u")
-        if letter == "g":
-            print("v")
-        if letter == "h":
-            print("w")
-        if letter == "c":
-            print("x")
-        if letter == "b":
-            print("y")
-        if letter == "a":
-            print("z") 
-        if letter == "i":
-            print("1")
-        if letter == "j":
-            print("2")
-        if letter == "k":
-            print("3")
-        if letter == "l":
-            print("4")
-        if letter == "m":
-            print("5")
-        if letter == "n":
-            print("6")
-        if letter == "o":
-            print("7")   
-        if letter == "p":
-            print("8")
-        if letter == "q":
-            print("9")  
-        if letter == "r":
-            print("0")
+
+while True:
+    response = input("Decode or Encode: ")
+    if response == "Encode":
+        code = input("What do you want to change into MARCODE? ")
+        for letter in code:
+            if letter == "a":
+                print("#")
+            elif letter == "b":
+                print("*")
+            elif letter == "c":
+                print("&")
+            elif letter == "d":
+                print("/")
+            elif letter == "e":
+                print("|")
+            elif letter == "f":
+                print("^")
+            elif letter == "g":
+                print("'")
+            elif letter == "h":
+                print("~")
+            elif letter == "i":
+                print("=")
+            elif letter == "j":
+                print("$")
+            elif letter == "k":
+                print("`")
+            elif letter == "l":
+                print("?")
+            elif letter == "m":
+                print("(")
+            elif letter == "n":
+                print(")")
+            elif letter == "o":
+                print(">")
+            elif letter == "p":
+                print("<")
+            elif letter == "q":
+                print(".")
+            elif letter == "r":
+                print(":")
+            elif letter == "s":
+                print("d")
+            elif letter == "t":
+                print("e")
+            elif letter == "u":
+                print("f")
+            elif letter == "v":
+                print("g")
+            elif letter == "w":
+                print("h")
+            elif letter == "x":
+                print("c")
+            elif letter == "y":
+                print("b")
+            elif letter == "z":
+                print("a")
+            elif letter == "1":
+                print("i")
+            elif letter == "2":
+                print("j")
+            elif letter == "3":
+                print("k")
+            elif letter == "4":
+                print("l")
+            elif letter == "5":
+                print("m")
+            elif letter == "6":
+                print("n")
+            elif letter == "7":
+                print("o")
+            elif letter == "8":
+                print("p")
+            elif letter == "9":
+                print("q")
+            elif letter == "0":
+                print("r")
+            elif letter == " ":
+                print(" ")
+                
+    elif response == "Decode":
+        decode = input("What do you want to decode? ")
+        for letter in decode:
+            if letter == "#":
+                print("a")
+            elif letter == "*":
+                print("b")
+            elif letter == "&":
+                print("c")
+            elif letter == "/":
+                print("d")
+            elif letter == "|":
+                print("e")
+            elif letter == "^":
+                print("f")
+            elif letter == "'":
+                print("g")
+            elif letter == "~":
+                print("h")
+            elif letter == "=":
+                print("i")
+            elif letter == "$":
+                print("j")
+            elif letter == "`":
+                print("k")
+            elif letter == "?":
+                print("l")
+            elif letter == "(":
+                print("m")
+            elif letter == ")":
+                print("n")
+            elif letter == ">":
+                print("o")
+            elif letter == "<":
+                print("p")
+            elif letter == ".":
+                print("q")
+            elif letter == ":":
+                print("r")
+            elif letter == "d":
+                print("s")
+            elif letter == "e":
+                print("t")
+            elif letter == "f":
+                print("u")
+            elif letter == "g":
+                print("v")
+            elif letter == "h":
+                print("w")
+            elif letter == "c":
+                print("x")
+            elif letter == "b":
+                print("y")
+            elif letter == "a":
+                print("z")
+            elif letter == "i":
+                print("1")
+            elif letter == "j":
+                print("2")
+            elif letter == "k":
+                print("3")
+            elif letter == "l":
+                print("4")
+            elif letter == "m":
+                print("5")
+            elif letter == "n":
+                print("6")
+            elif letter == "o":
+                print("7")
+            elif letter == "p":
+                print("8")
+            elif letter == "q":
+                print("9")
+            elif letter == "r":
+                print("0")
+            elif letter == " ":
+                print(" ")
+    
+    else:
+        print("Invalid input! Please type 'Encode' or 'Decode'.")
